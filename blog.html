@@ -20,29 +20,24 @@
 <body>
     <!--Header - menu-->
 
+
     <header>
-
-        <div class="contenedor__header">
-
-            <div class="logo">
-                <img src="./images/logo.png" alt="logo">
-            </div>
-
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#asistencia">Asistencia al viajero</a></li>
-                        <li><a href="#contacto">Contactos</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-
+        <div class="container">
+            <h1 class="logo">Regnitz River LLC Insurance </h1>
         </div>
-
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="#asistencia"><i class="fa fa-home site-nav--icon"></i>Asistencia al viajero</a></li>
+                <li><a href="#contacto"><i class="fa fa-info site-nav--icon"></i>Contactos</a></li>
+                <li><a href="#servicios"><i class="fa fa-pencil-alt site-nav--icon"></i>Servicios</a></li>
+                <li><a href="#"><i class="fa fa-dollar-sign site-nav--icon"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope site-nav--icon"></i></a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
+        </div>
     </header>
-
 
 
     <div class="container_all" id="container__all">
@@ -261,13 +256,13 @@
                     <a>info@regnitzriver.com</a>
                 </div>
 
-                <div class="box__footer">
-                    <h2>Redes Sociales</h2>
+                <!--<div class="box__footer">
+                   <h2>Redes Sociales</h2>
                     <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
                     <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
                     <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
                     <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-                </div>
+                </div> -->
             </div>
 
             <div class="box__copyright">
