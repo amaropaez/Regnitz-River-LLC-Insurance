@@ -15,8 +15,8 @@
     margin: 0 auto;
 }
 header{
-    background: #557e7c;
-    color: #ebebd3;
+    background: white;
+    color: black;
     padding: 1em 0;
     position: relative;
 }
@@ -40,7 +40,7 @@ header::after{
     top:100%;
     right:0;
     position: absolute;
-    background: #464655;
+    background: white;
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
 }
@@ -53,13 +53,13 @@ header::after{
     list-style: none;
 }
 .site-nav li{
-    border-bottom: 1px solid #575766;
+    border-bottom: 1px solid white;
 }
 .site-nav li:last-child{
     border-bottom: none;
 }
 .site-nav a{
-    color: #ebedb3;
+    color: black;
     display: block;
     padding: 2em 6em;
     text-transform: uppercase;
@@ -67,8 +67,8 @@ header::after{
 }
 .site-nav a:hover,
 .site-nav a:focus{
-    background: #e4b363;
-    color: #464655;
+    background: black;
+    color: white;
 }
 
 .site-nav--icon{
@@ -77,7 +77,7 @@ header::after{
     margin-right: 1em;
     width: 1.1em;
     text-align: right;
-    color: rgba(255, 255, 255, .4);
+    color: white;
 }
 
 .menu-toggle{
@@ -102,7 +102,7 @@ header::after{
 .hamburger::after{
     content: '';
     display: block;
-    background: #ebebd3;
+    background: black;
     height: 3px;
     width: 1.75em;
     border-radius: 3px;
