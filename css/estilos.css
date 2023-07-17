@@ -41,3 +41,17 @@
     color: white;
     font-family: 'Merienda', cursive;
 }
+
+a {
+
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 300ms;
+}
+ a:hover {
+    opacity: 0.6;
+}
